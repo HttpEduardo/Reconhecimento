@@ -1,69 +1,68 @@
-# 😛 pwnfaces
-> Primefaces 5.X EL Injection Exploit
+# 😛 Faces
+> Primefaces 5.X 
 
 <div align="center">
-    <img src="./assets/preview.png" width="850">
+     <img src="./assets/preview.png" width="850">
 </div>
 
 <br>
 
 <p align="center">
-    <img src="https://img.shields.io/github/license/oppsec/pwnfaces?color=cyan&logo=github&logoColor=cyan&style=for-the-badge">
-    <img src="https://img.shields.io/github/issues/oppsec/pwnfaces?color=cyan&logo=github&logoColor=cyan&style=for-the-badge">
-    <img src="https://img.shields.io/github/stars/oppsec/pwnfaces?color=cyan&label=STARS&logo=github&logoColor=cyan&style=for-the-badge">
-    <img src="https://img.shields.io/github/forks/oppsec/pwnfaces?color=cyan&logo=github&logoColor=cyan&style=for-the-badge">
-    <img src="https://img.shields.io/github/languages/code-size/oppsec/pwnfaces?color=cyan&logo=github&logoColor=cyan&style=for-the-badge">
+     <img src="https://img.shields.io/github/license/oppsec/pwnfaces?color=cyan&logo=github&logoColor=cyan&style=for-the-badge">
+     <img src="https://img.shields.io/github/issues/oppsec/pwnfaces?color=cyan&logo=github&logoColor=cyan&style=for-the-badge">
+     <img src="https://img.shields.io/github/stars/oppsec/pwnfaces?color=cyan&label=STARS&logo=github&logoColor=cyan&style=for-the-badge">
+     <img src="https://img.shields.io/github/forks/oppsec/pwnfaces?color=cyan&logo=github&logoColor=cyan&style=for-the-badge">
+     <img src="https://img.shields.io/github/languages/code-size/oppsec/pwnfaces?color=cyan&logo=github&logoColor=cyan&style=for-the-badge">
 </p>
 
 ___
 
 <br>
 
-### 🕵️ What is pwnfaces?
-🕵️ **pwnfaces** is a Golang tool created to exploit the vulnerability defined as CVE-2017-1000486 (EL Injection in PrimeFaces 5.X)
+### 🕵️ O que é pwnfaces?
+🕵️ **pwnfaces** é uma ferramenta Golang criada para explorar a vulnerabilidade definida como CVE-2017-1000486 (EL Injection no PrimeFaces 5.X) para fins de BUGBOUNTY
 
 <br>
 
-### ⚡ Installing / Getting started
+### ⚡ Instalando / Iniciando
 
-A quick guide of how to install and use pwnfaces.
+Um guia rápido de como instalar e usar o pwnfaces.
 
-```shell
-1. go install github.com/oppsec/pwnfaces
+```concha
+1. vá instalar github.com/oppsec/pwnfaces
 2. pwnfaces -u http://127.0.0.1:8090/javax.faces.resource/dynamiccontent.properties.xhtml
 ```
 
-You can use `go install github.com/oppsec/pwnfaces@latest` to update the tool
+Você pode usar `go install github.com/oppsec/pwnfaces@latest` para atualizar a ferramenta
 
 <br><br>
 
-### ⚙️ Pre-requisites
-- [Golang](https://go.dev/dl/) installed on your machine.
+### ⚙️ Pré-requisitos
+- [Golang](https://go.dev/dl/) instalado em sua máquina.
 
 <br><br>
 
-### ✨ Features
-- Extremely fast
-- Low RAM and CPU usage
-- Made in Golang
+### ✨ Características
+- Extremamente rápido
+- Baixo uso de RAM e CPU
+- Feito em Golang
 
 <br><br>
 
-### 🔨 Contributing
+### 🔨 Contribuindo
 
-A quick guide of how to contribute with the project.
+Um guia rápido de como contribuir com o projeto.
 
-```shell
-1. Create a fork from pwnfaces repository.
-2. Download the project with git clone https://github.com/your/pwnfaces.git
+```concha
+1. Crie uma bifurcação do repositório pwnfaces.
+2. Baixe o projeto git 
 3. cd pwnfaces/
-4. Make your changes.
-5. Commit and make a git push.
-6. Open a pull request.
+4. Faça suas alterações.
+5. Confirme e faça um git push.
+6. Abra uma solicitação pull.
 ```
 
 <br><br>
 
-### ⚠️ Warning
-- The developer is not responsible for any malicious use of this tool.
-# Reconhecimento
+### ⚠️ Aviso
+- Isso é para fins de estudo e bugbounty
